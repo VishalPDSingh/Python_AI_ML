@@ -292,3 +292,106 @@ print("Program continues...")
 * Comments help document your code and improve readability
 
 ---
+
+# 🐍 Python Data Types
+
+Python provides a rich set of **built‑in data types**, and understanding them is essential for writing efficient and clean code.
+
+---
+
+## 🔸 What Are Data Types?
+
+In programming, a **data type** defines the type of value a variable can store. Different types support different operations.
+
+Python automatically assigns a data type when a value is assigned to a variable.
+
+---
+
+## 📚 Built‑in Data Types in Python
+
+Python has the following built‑in data types:
+
+### **📝 Text Type**
+
+* `str`
+
+### **🔢 Numeric Types**
+
+* `int`
+* `float`
+* `complex`
+
+### **📦 Sequence Types**
+
+* `list`
+* `tuple`
+* `range`
+
+### **🗂️ Mapping Type**
+
+* `dict`
+
+### **🧺 Set Types**
+
+* `set`
+* `frozenset`
+
+### **⚡ Boolean Type**
+
+* `bool`
+
+### **💾 Binary Types**
+
+* `bytes`
+* `bytearray`
+* `memoryview`
+
+### **🚫 None Type**
+
+* `NoneType`
+
+---
+
+## 🔍 Getting the Data Type
+
+Use the `type()` function to check the data type of a variable:
+
+```python
+x = 10
+print(type(x))   # Output: <class 'int'>
+```
+
+---
+
+## ✍ Setting the Data Type
+
+Python automatically sets the data type when you assign a value:
+
+```python
+x = "Hello World"          # str
+x = 20                      # int
+x = 20.5                    # float
+x = 1j                      # complex
+x = ["apple", "banana"]    # list
+x = ("apple", "banana")    # tuple
+x = range(6)                # range
+x = {"name": "John"}       # dict
+x = {"apple", "banana"}    # set
+x = frozenset({"apple", "banana"}) # frozenset
+x = True                    # bool
+x = b"Hello"                # bytes
+x = bytearray(5)            # bytearray
+x = memoryview(bytes(5))    # memoryview
+x = None                    # NoneType
+```
+
+---
+
+## 🎉 Summary
+
+* Python supports multiple built‑in data types.
+* Data types are assigned automatically when values are stored in variables.
+* Use `type()` to check the type of any object.
+
+✨ Python handles data types dynamically, making coding easier and more flexible!
+
