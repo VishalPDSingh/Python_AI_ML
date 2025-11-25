@@ -212,3 +212,83 @@ hello-world
 | `end`           | Custom ending    | `print("Hi",end='!')`    |
 
 ---
+
+# Python Comments
+
+Python comments are helpful for explaining code, making programs more readable, and disabling lines during testing.
+
+---
+
+## 🔹 What Are Python Comments?
+
+Comments are lines in the code that Python **ignores** during execution. They are meant for humans to understand the code better.
+
+### ✔ Uses of Comments
+
+* Explain Python code
+* Make code more readable
+* Prevent execution of code (useful in testing)
+
+---
+
+## 🔹 Single-Line Comments
+
+Single-line comments start with the `#` symbol.
+
+### **Example:**
+
+```python
+# This is a single-line comment
+print("Hello, World!")  # This comment is placed at the end of a line
+```
+
+---
+
+## 🔹 Using Comments to Disable Code
+
+You can comment out a line of code if you want Python to ignore it.
+
+### **Example:**
+
+```python
+#print("This line will not run")
+print("This line will run")
+```
+
+---
+
+## 🔹 Multi-line Comments
+
+Python does not have a dedicated multiline comment syntax. But you can use either multiple `#` symbols or triple-quoted strings.
+
+### **Method 1: Using `#` on each line**
+
+```python
+# This is a multiline comment
+# written using the hash symbol
+# on each line
+```
+
+### **Method 2: Using Multiline String (Triple Quotes)**
+
+Python ignores a string literal if it is not assigned to a variable.
+
+```python
+"""
+This is a multiline comment.
+Python will ignore this string because
+it is not assigned to any variable.
+"""
+
+print("Program continues...")
+```
+
+---
+
+## ✔ Summary
+
+* Use `#` for single-line comments
+* Use `#` repeatedly or triple quotes for multiline comments
+* Comments help document your code and improve readability
+
+---
