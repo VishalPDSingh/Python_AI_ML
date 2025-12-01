@@ -395,3 +395,240 @@ x = None                    # NoneType
 
 ✨ Python handles data types dynamically, making coding easier and more flexible!
 
+# 🐍 Python Data Types Examples
+
+This README provides examples of different Python data types using simple `print()` statements.
+
+---
+
+## 🔢 Integer
+
+Integers represent whole numbers.
+
+```python
+print(8)
+print(1e309)  # Range limit demonstration (1 * 10^308)
+```
+
+---
+
+## 💠 Decimal / Float
+
+Floats represent decimal numbers.
+
+```python
+print(7.56)
+print(1.7e309)  # Range of float
+```
+
+---
+
+## ⚡ Boolean
+
+Boolean values represent truth values.
+
+```python
+print(True)
+print(False)
+```
+
+---
+
+## 📝 Text / String
+
+Strings represent text.
+
+```python
+print("Hello World")
+print('Hello world')
+```
+
+---
+
+## 🔮 Complex Number
+
+Used for scientific and mathematical calculations.
+
+```python
+print(3+5j)
+```
+
+---
+
+## 📦 List (Similar to Array in Java)
+
+Lists are ordered, mutable collections.
+
+```python
+print([1,2,3,5,8,4])
+```
+
+---
+
+## 🎯 Tuple
+
+Tuples are ordered and immutable.
+
+```python
+print((1,5,6,87,9))
+```
+
+---
+
+## 🧺 Set
+
+Sets are unordered collections of unique elements.
+
+```python
+print({1,2,5,8,69,14})
+```
+
+---
+
+## 🗂️ Dictionary
+
+Stores data in key-value pairs.
+
+```python
+print({'name':'Vishal','Roll':102,'college':'JISCE', 'marks':89.6})
+```
+
+---
+
+## 🎉 Summary
+
+This README demonstrates Python's most commonly used data types with simple print examples.
+
+# 🐍✨ Python Variables & Typing Explained (Stylish Version)
+
+This README covers Python variables, static vs dynamic typing, static vs dynamic binding, and stylish declaration techniques — along with examples.
+
+---
+
+# 📌 🔤 Python Variables
+
+Variables store data values. In Python, you simply assign a value — no type needed.
+
+```python
+name = 'Vishal singh'  # 🧑‍💻 String
+print(name)
+
+a = 4  # 🔢 Integer
+print(a)
+
+x = 34
+y = 34
+print(x + y)  # ➕ Addition
+```
+
+````
+
+Python does **not** require specifying the type of variable like Java or C.
+
+---
+
+# 🔄 ⚙️ Static Typing vs 🌀 Dynamic Typing
+
+## 🌀 Dynamic Typing (Python)
+Python determines the variable type **at runtime**.
+- No type declaration
+- Variable can change type anytime
+- Very flexible
+
+```python
+a = 34        # int
+a = "Vishal"  # now becomes string
+print(a)
+````
+
+## 🔒 Static Typing (Java, C++)
+
+Type is fixed and declared before use.
+
+```java
+int a = 10;   // must always remain an integer
+```
+
+int a = 10;   // must be int only
+
+````
+
+---
+
+# 🔗 🔂 Static Binding vs 🔄 Dynamic Binding
+
+## 🔄 Dynamic Binding (Python)
+- Binding of name → value happens at runtime
+- Can change data type anytime
+
+```python
+a = 5
+print(a)   # 🔢 int
+a = 'vishal'
+print(a)   # 🔤 string
+````
+
+## 🔂 Static Binding (Java)
+
+Binding happens at compile-time.
+
+```java
+int a = 5;   // fixed type
+```
+
+int a = 5;   // cannot change to string later
+
+````
+
+---
+
+# 🎨💡 Stylish Variable Declaration Techniques
+Python supports clean and flexible variable assignments.
+
+## ➤ Normal Assignment
+```python
+a = 12
+b = 12
+c = 45
+print(a, b, c)
+````
+
+## ➤ Multiple Assignment (Pythonic 😎)
+
+```python
+a, b, c = 10, 12, 13
+print(a, b, c)
+```
+
+## ➤ Assign Same Value to Multiple Variables
+
+```python
+a = b = c = 12
+print(a, b, c)
+```
+
+````
+
+## 📌 Multiple Assignment (One-line)
+```python
+a, b, c = 10, 12, 13
+print(a, b, c)
+````
+
+## 📌 Single Value to Multiple Variables
+
+```python
+a = b = c = 12
+print(a, b, c)
+```
+
+---
+
+# 🎉✨ Summary (Quick Recap)
+
+* Python uses **dynamic typing** and **dynamic binding**, making it flexible.
+* Variables can change type at any time.
+* No need to declare data types.
+* Python offers stylish ways to declare multiple variables.
+
+Python's dynamic nature + clean syntax = 🐍💙 powerful and beginner-friendly!
