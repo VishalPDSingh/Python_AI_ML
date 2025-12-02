@@ -627,4 +627,277 @@ print(a, b, c)
 
 ---
 
+# 🐍✨ Python Variable Names — Rules & Styles (With Examples)
+
+A clean and stylish README explaining **variable naming rules** and **multi-word naming styles** in Python.
+
+---
+
+# 📌 Variable Names in Python
+
+A variable can have a short name like `x`, `y` or a descriptive name like `age`, `car_name`, or `total_volume`.
+
+## ✅ Rules for Python Variable Names
+
+Below are the official rules you must follow:
+
+### 🔹 1. Must start with a **letter** or **underscore** (`_`)
+
+✔ Valid:
+
+```python
+name = "Vishal"
+_age = 21
+```
+
+❌ Invalid:
+
+```python
+1name = "wrong"  # cannot start with number
+```
+
+### 🔹 2. Cannot start with a **number**
+
+```python
+99value = 10   # ❌ invalid
+value99 = 10   # ✔ valid
+```
+
+### 🔹 3. Can contain **letters, numbers, and underscores** only
+
+```python
+first_name = "Vishal"   # ✔ valid
+first-name = "no"       # ❌ invalid
+first name = "no"       # ❌ invalid
+```
+
+### 🔹 4. Variable names are **case-sensitive**
+
+```python
+age = 22
+Age = 30
+AGE = 40
+print(age, Age, AGE)  # all are different
+```
+
+### 🔹 5. Cannot use **Python keywords**
+
+Examples of keywords: `class`, `while`, `for`, `return`, `lambda`, etc.
+
+❌ Invalid:
+
+```python
+class = "test"   # cannot use keyword
+```
+
+✔ Valid alternative:
+
+```python
+class_name = "test"
+```
+
+---
+
+# ⚠️ Remember
+
+✔ Variable names are **case-sensitive**
+✔ Use descriptive names for clean, readable code
+✔ Avoid using Python keywords as variable names
+
+---
+
+# 🧩 Multi-Word Variable Naming Styles
+
+When variable names have more than one word, readability becomes important.
+Python supports multiple naming conventions.
+
+---
+
+## 🐪 Camel Case
+
+Each word **except the first** starts with a capital letter.
+
+### ✅ Example:
+
+```python
+myVariableName = "Vishal"
+totalVolumeCount = 120
+```
+
+---
+
+## 🏛️ Pascal Case
+
+**Each word** starts with a capital letter.
+
+### ✅ Example:
+
+```python
+MyVariableName = "Python"
+TotalVolumeCount = 120
+```
+
+Pascal Case is usually used for **Class Names** in Python.
+
+---
+
+## 🐍 Snake Case (Most Common in Python)
+
+Words are separated using an underscore `_`.
+
+### ✅ Example:
+
+```python
+my_variable_name = "Vishal"
+total_volume_count = 120
+```
+
+Snake case is the **official Python convention (PEP-8)** for variable names.
+
+---
+
+# 🎉 Summary
+
+* Python variable names follow strict rules (letters, underscores, case-sensitive, no keywords).
+* Multi-word names can be written using **camelCase**, **PascalCase**, or **snake_case**.
+* **snake_case** is the recommended style for Python projects.
+
+✨ This README is perfect for GitHub documentation, Python learning modules, and beginner-friendly guides!
+
+# 🐍 Python Variable Names — Complete Guide
+
+Welcome to the **most stylish and beginner-friendly** guide to Python variable naming! 🚀✨
+This README is perfect for GitHub — clean, explained, and full of useful examples.
+
+---
+
+## 🔤 What Are Variable Names?
+
+A **variable** stores data in Python. You can name it anything, but there are some rules you must follow.
+
+Examples:
+
+```python
+name = "Vishal Singh"
+age = 21
+total_volume = 90
+```
+
+---
+
+## 📌 Rules for Python Variable Names
+
+Here are the official rules (easy to remember!):
+
+### ✅ Allowed
+
+* Must **start with a letter** or **underscore** → (`a`, `name`, `_value`)
+* Can contain **letters, digits, underscores** → (`value_1`, `car_name`)
+* Names are **case-sensitive** → (`age`, `Age`, `AGE` are different)
+
+### ❌ Not Allowed
+
+* Cannot start with a **number** → (`1value ❌`)
+* Cannot contain **spaces or special characters** → (`my variable ❌`, `car-name ❌`)
+* Cannot use **Python keywords** → (`for`, `class`, `def`, `return`, etc.)
+
+---
+
+## 🧠 Case Sensitivity Example
+
+```python
+age = 20
+Age = 30
+AGE = 40
+
+print(age)  # 20
+print(Age)  # 30
+print(AGE)  # 40
+```
+
+Each one is treated differently! 🎯
+
+---
+
+## 🧩 Multi-Word Variable Names (Styling Techniques)
+
+When variable names become longer, Python provides three common naming styles.
+Let’s make them stylish and easy to read! 😎🔥
+
+---
+
+### 🐫 **Camel Case**
+
+Only the **first** word starts lowercase, the rest start with **capital letters**.
+
+📌 Example:
+
+```python
+firstName = "Vishal"
+totalMarks = 450
+```
+
+---
+
+### 🏛️ **Pascal Case**
+
+Every word starts with a **capital letter**.
+
+📌 Example:
+
+```python
+FirstName = "Vishal"
+TotalMarks = 450
+```
+
+---
+
+### 🐍 **Snake Case** (Most Popular in Python)
+
+Words are separated using **underscores `_`**.
+
+📌 Example:
+
+```python
+first_name = "Vishal"
+total_marks = 450
+```
+
+➡️ **Python developers prefer snake_case** for variables and functions.
+
+---
+
+## 🧪 Full Example Comparison
+
+```python
+# Camel Case
+studentName = "Vishal"
+
+# Pascal Case
+StudentName = "Vishal"
+
+# Snake Case (Recommended)
+student_name = "Vishal"
+
+print(studentName, StudentName, student_name)
+```
+
+---
+
+## 🎯 Summary Table
+
+| Style      | Example        | Used In                 |
+| ---------- | -------------- | ----------------------- |
+| CamelCase  | `studentName`  | JavaScript, Java        |
+| PascalCase | `StudentName`  | Class names in Python   |
+| snake_case | `student_name` | ✔️ Python best practice |
+
+---
+
+## 🎉 Final Tips
+
+* Pick names that are **meaningful**, not random.
+* Avoid single letters except in loops.
+* Follow **snake_case** for clean Python code.
+
 
