@@ -21,8 +21,8 @@ print(x.imag)
 string = 'This is python'
 Strings = "Welcome"
 multiple_str = """This is multiple string"""
-raw_str = 
-unicode = 
+raw_str = None
+unicode = None
 
 # Boolean
 a = True+4
