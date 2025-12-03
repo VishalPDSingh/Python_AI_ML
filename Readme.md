@@ -1364,7 +1364,135 @@ None
 
 ---
 
+# ⚙️🐍 Python Operators — Stylish README
 
+Operators allow you to perform operations on variables and values. Python provides several categories of operators that make coding powerful and expressive. Let's explore them with examples! 🚀
 
+---
+
+# 🔢 Operator Categories
+
+Python divides operators into these groups:
+
+* ➕ **Arithmetic Operators**
+* 📝 **Assignment Operators**
+* 🔍 **Comparison Operators**
+* 🧠 **Logical Operators**
+* 🆔 **Identity Operators**
+* 📦 **Membership Operators**
+* ⚡ **Bitwise Operators**
+
+---
+
+# ➕ Arithmetic Operators
+
+These operators perform basic mathematical operations.
+
+| Operator | Name             | Example  |
+| -------- | ---------------- | -------- |
+| `+`      | Addition         | `x + y`  |
+| `-`      | Subtraction      | `x - y`  |
+| `*`      | Multiplication   | `x * y`  |
+| `/`      | Division (float) | `x / y`  |
+| `%`      | Modulus          | `x % y`  |
+| `**`     | Exponentiation   | `x ** y` |
+| `//`     | Floor Division   | `x // y` |
+
+---
+
+# ➗ Division in Python
+
+Python has **two types** of division:
+
+### ✔ Normal Division (`/`)
+
+Returns **float** value.
+
+### ✔ Floor Division (`//`)
+
+Returns **integer** by removing decimal part.
+
+---
+
+# 🧪 Examples
+
+```python
+print(3 + 5)   # Addition
+print(5 - 2)   # Subtraction
+print(5 * 6)   # Multiplication
+print(5 / 3)   # Division (float)
+print(5 // 2)  # Floor division (integer)
+print(5 % 2)   # Modulus (remainder)
+print(5 ** 2)  # Exponentiation (power)
+```
+
+### 🖥️ Output
+
+```
+8
+3
+30
+1.6666666666666667
+2
+1
+25
+```
+
+---
+
+# 🎯 Summary
+
+* Arithmetic operators help perform math operations.
+* `/` gives float, `//` gives integer.
+* `%` gives remainder, `**` is used for power.
+
+🐍 Python Assignment Operators
+
+Assignment operators in Python are used to assign values and also update existing values of variables.
+They make your code cleaner and shorter ✨.
+
+📝 1. Basic Assignment Operator
+= Assign value
+x = 10
+print(x)   # Output: 10
+
+🔁 2. Compound Assignment Operators
+
+These operators update the value of a variable using a shortcut form.
+
+➕ 2.1 Add and Assign (+=)
+x = 5
+x += 3    # Same as: x = x + 3
+print(x)  # Output: 8
+
+➖ 2.2 Subtract and Assign (-=)
+x = 10
+x -= 4    # Same as: x = x - 4
+print(x)  # Output: 6
+
+✖️ 2.3 Multiply and Assign (*=)
+x = 6
+x *= 2    # Same as: x = x * 2
+print(x)  # Output: 12
+
+➗ 2.4 Divide and Assign (/=)
+x = 20
+x /= 5    # Same as: x = x / 5
+print(x)  # Output: 4.0
+
+🔢 2.5 Floor Divide and Assign (//=)
+x = 17
+x //= 3    # Same as: x = x // 3
+print(x)   # Output: 5
+
+🔁 2.6 Modulus and Assign (%=)
+x = 14
+x %= 5     # Same as: x = x % 5
+print(x)   # Output: 4
+
+⚡ 2.7 Exponent and Assign (**=)
+x = 3
+x **= 3    # Same as: x = x ** 3
+print(x)   # Output: 27
 
 
